@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(208, 49%, 24%);
+}
+
+.main-container {
+    display: flex;
+    padding: 10px;
+     color: hsl(208, 49%, 24%);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20rem;
+    background-color: hsl(356, 100%, 66%);
+    padding: 40px;
+    height: 12rem;
+    width: 100%;
+    border-radius:0 30px 0 30px;
+}
+.mypic {
+    padding-right: 0;
+    
+}
+
+.nav-left {
+    display: flex;
+    color: aliceblue;
+    padding-right: 10rem ;
+    gap: 30px;
+}
+
+.nav-right {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.signup {
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 25px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.top-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10rem;
+    padding: 6px;
+    color: white;
+}
+
+.top-content-items {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.top-content-item1 {
+    color: hsl(356, 100%, 66%);
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+
+.top-content-item2{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(356, 100%, 66%);
+    padding: 8px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+
+.second-item-header {
+    display: flex;
+}
+
+
+
+/* section */
+
+.myrest {
+    padding: 10rem 15rem;
+    display: flex;
+    
+}
+
+.second-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-item-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+}
+
+.third-item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap: 20rem;
+    background-color: hsl(208, 49%, 24%);
+    padding: 40px 40px;
+    height: 7rem;
+    width: 100%;
+    border-radius:0 30px 0 30px;
+    margin: 0px 30px;
+    color: white;
+    align-items: center;
+}
+
